@@ -7,6 +7,52 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Quick Start
+
+``` bash
+# Install Dependencies
+composer install
+
+# Run Migrations
+php artisan migrate
+
+# Import Articles
+php artisan db:seed
+
+# Add virtual host if using Apache
+
+# If you get an error about an encryption key
+php artisan key:generate
+```
+
+## Endpoints
+
+### List all articles with links and meta
+``` bash
+GET api/articles
+```
+### Get single article
+``` bash
+GET api/article/{id}
+```
+
+### Delete article
+``` bash
+DELETE api/article/{id}
+```
+
+### Add article
+``` bash
+POST api/article
+title/body
+```
+
+### Update article
+``` bash
+PUT api/article
+article_id/title/body
+```
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
