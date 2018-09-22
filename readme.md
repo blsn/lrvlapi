@@ -18,6 +18,9 @@ composer dump-autoload
 # Run Migrations
 php artisan migrate
 
+# Link the [public/storage] directory [storage/app/public] 
+php artisan storage:link
+
 # Import Articles
 php artisan db:seed
 
