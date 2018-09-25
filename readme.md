@@ -21,6 +21,9 @@ php artisan migrate
 # Link the [public/storage] directory [storage/app/public] 
 php artisan storage:link
 
+# Package manager for the Node JavaScript platform
+npm install
+
 # Import Articles
 php artisan db:seed
 
