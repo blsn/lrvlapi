@@ -21,6 +21,14 @@ php artisan migrate
 # Link the [public/storage] directory [storage/app/public] 
 php artisan storage:link
 
+# Install Laravel Passport
+composer require laravel/passport
+
+# Fully install Laravel Passport
+php artisan migrate
+php artisan passport:install
+
+
 # Package manager for the Node JavaScript platform
 npm install
 
