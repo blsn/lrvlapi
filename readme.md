@@ -19,7 +19,8 @@ composer dump-autoload
 php artisan migrate
 
 # Link the [public/storage] directory [storage/app/public] 
-- upload an image to post then copy 'noimage.jpg' to [storage/app/public]
+- upload image to post
+- copy 'noimage.jpg' to [storage/app/public]
 php artisan storage:link
 
 # Install Laravel Passport
