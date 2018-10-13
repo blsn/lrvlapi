@@ -18,10 +18,10 @@ $ composer dump-autoload
 # Run Migrations
 $ php artisan migrate
 
-# Link the [public/storage] directory [storage/app/public] 
+# Link the [public/storage] directory [storage/app/public]
+$ php artisan storage:link
   - upload image to post
   - copy 'noimage.jpg' to [storage/app/public]
-$ php artisan storage:link
 
 # Install Laravel Passport
 $ composer require laravel/passport
