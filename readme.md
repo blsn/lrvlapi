@@ -31,7 +31,7 @@ $ php artisan passport:install
 # Package manager for the Node JavaScript platform (see notes below)
 $ npm install
 
-# Import Articles
+# Import fake posts
 $ php artisan db:seed
 
 # If you get an error about an encryption key
