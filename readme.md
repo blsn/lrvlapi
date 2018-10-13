@@ -10,34 +10,34 @@
 # Add virtual host if using Apache
 
 # Install Dependencies
-composer install
+$ composer install
 
 # Update the classes if needed
-composer dump-autoload
+$ composer dump-autoload
 
 # Run Migrations
-php artisan migrate
+$ php artisan migrate
 
 # Link the [public/storage] directory [storage/app/public] 
 - upload image to post
 - copy 'noimage.jpg' to [storage/app/public]
-php artisan storage:link
+$ php artisan storage:link
 
 # Install Laravel Passport
-composer require laravel/passport
+$ composer require laravel/passport
 
 # Fully install Laravel Passport
-php artisan migrate
-php artisan passport:install
+$ php artisan migrate
+$ php artisan passport:install
 
 # Package manager for the Node JavaScript platform
-npm install
+$ npm install
 
 # Import Articles
-php artisan db:seed
+$ php artisan db:seed
 
 # If you get an error about an encryption key
-php artisan key:generate
+$ php artisan key:generate
 ```
 
 ## Endpoints
