@@ -28,7 +28,7 @@ $ composer require laravel/passport
 $ php artisan migrate
 $ php artisan passport:install
 
-# Package manager for the Node JavaScript platform
+# Package manager for the Node JavaScript platform (see notes below)
 $ npm install
 
 # Import Articles
@@ -36,6 +36,11 @@ $ php artisan db:seed
 
 # If you get an error about an encryption key
 $ php artisan key:generate
+
+Notes:
+  - roles: table 'users' in 'user_type' change to 'author'
+  - make change: $ npm run dev
+  - watch changes: $ npm run watch
 ```
 
 ## Endpoints
