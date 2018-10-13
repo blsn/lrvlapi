@@ -23,10 +23,8 @@ $ php artisan storage:link
   - upload image to post
   - copy 'noimage.jpg' to [storage/app/public]
 
-# Install Laravel Passport
-$ composer require laravel/passport
-
 # Fully install Laravel Passport
+$ composer require laravel/passport
 $ php artisan migrate
 $ php artisan passport:install
 
