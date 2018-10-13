@@ -38,7 +38,7 @@ $ php artisan db:seed
 $ php artisan key:generate
 
 Notes:
-  - roles: table 'users' in 'user_type' change to 'author'
+  - roles: change to 'author' (tableu 'users', column 'user_type') 
   - make change: $ npm run dev
   - watch changes: $ npm run watch
 ```
